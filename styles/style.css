@@ -18,13 +18,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-top: 52px;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 25px;
 }
 
 nav>ul {
     display: flex;
     gap: 44px;
-    margin-bottom: 0;
+    /* margin-bottom: 60px; */
 }
 
 nav li {
@@ -335,6 +342,12 @@ footer {
     text-align: center;
     padding-top: 110px;
     padding-bottom: 15px;
+}
+.footer-logo{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-title {
