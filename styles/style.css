@@ -177,7 +177,7 @@ li {
 /* newsletter section */
 .newsletter {
     display: flex;
-    gap: 25px;
+    gap: 26px;
     margin-top: 100px;
 }
 
@@ -212,7 +212,10 @@ input {
     height: 52px;
     margin-bottom: 16px;
 }
-
+.newsletter-img img{
+    width: 650px;
+height: 422px;
+}
 .btn-newsletter {
     border: 0;
     border-radius: 8px;
@@ -232,7 +235,7 @@ input {
     text-align: center;
     position: relative;
     bottom:215px;
-    left: 340px;
+    left: 317px;
     transform: rotate(-19.628deg);
 }
 .discount h5{
