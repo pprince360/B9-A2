@@ -183,7 +183,94 @@ li {
     font-weight: 800;
     margin-top: 0;
 }
+/* destination section */
+.destination{
+    margin-top: 100px;
+    text-align: center;
+}
+.destination-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
 
+.mal-indo{
+    display: flex;
+    gap: 24px;
+}
+.mal-indo .mal{
+    position: absolute;
+    top: 1700px;
+    padding-left: 226px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.mal-indo .indo{
+    position: absolute;
+    top: 1700px;
+    padding-left: 817px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.sri-north-kash{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.bangla-bandar{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.sri-north-kash .sri{
+    position: absolute;
+    top: 2017px;
+    padding-left: 130px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.sri-north-kash .north{
+    position: absolute;
+    top: 2017px;
+    padding-left: 535px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.sri-north-kash .kash{
+    position: absolute;
+    top: 2017px;
+    padding-left: 980px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.bangla-bandar .bangla{
+    position: absolute;
+    top: 2334px;
+    padding-left: 160px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.bangla-bandar .bandar{
+    position: absolute;
+    top: 2334px;
+    padding-left: 760px;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
 /* Why choose us section */
 .why-heading {
     text-align: center;
