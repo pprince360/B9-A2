@@ -505,6 +505,12 @@ footer {
 
     }
 
+    footer {
+        width: 375px;
+        height: 309px;
+        margin: 0;
+    }
+
     .nav1,
     .travel {
         font-size: 1.2rem;
@@ -655,18 +661,25 @@ footer {
 
     .newsletter {
         flex-direction: column;
+        margin-top: 16px;
     }
 
     .newletter-content {
         width: auto;
         padding: 20px;
+        height: 353px;
+    }
+
+    .newsletter h2 {
+        margin-top: 16px;
     }
 
     .newletter-content input {
         max-width: 268px;
         height: 52px;
     }
-    .btn-newsletter{
+
+    .btn-newsletter {
         width: 288px;
     }
 
@@ -689,4 +702,47 @@ footer {
 
     .discount h2 {
         font-size: 1.3rem;
+    }
+
+    footer {
+        width: 375px;
+        /* height: 309px; */
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+
+    .footer-title {
+        font-size: 1.29rem;
+    }
+
+    .travel2 {
+        font-size: 1.29rem;
+    }
+    .footer-logo{
+        padding-right: 20px;
+    }
+
+    .footer-description {
+        width: 287px;
+        font-size: 0.8rem;
+        font-weight: 400;
+        line-height: 24px;
+        padding-bottom: 16px;
+    }
+
+    .icon {
+        width: 174.322px;
+        height: 24px;
+        padding-left: 100px;
+        margin-bottom: 24px;
+        margin-top: 0;
+    }
+
+    .last-hr {
+        max-width: 335px;
+        margin-bottom: 24px;
+    }
+    .footer-last{
+        font-size: 0.8rem;
+        font-weight: 300;
     }
